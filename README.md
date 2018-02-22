@@ -1,6 +1,6 @@
-# ASPNETKata
+# AspNetCoreKata
 
-Engage with ASP.NET MVC
+Engage with ASP.NET Core
 
 ## First Step
 
@@ -8,7 +8,7 @@ Fork and clone this repo
 
 ## Tasks
 
-1. [ASP.NET MVC with Razor](docs/ASP.NET-Razor.md)
+1. [ASP.NET MVC with Razor](docs/Asp.Net-Razor.md)
 1. [Inversion of Control](docs/IoC.md)
 1. [Ractive Step](docs/Ractive.md)
 
