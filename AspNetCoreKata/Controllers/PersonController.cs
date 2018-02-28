@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AspNetCoreKata.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AspNetCoreKata.Controllers
@@ -10,7 +11,11 @@ namespace AspNetCoreKata.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            var list = new List<Person>
+            {
+                new Person { Name = "Michael Doyle", Age = 30 }
+            };
+            return View(list);
         }
     }
 }
