@@ -13,9 +13,15 @@ namespace AspNetCoreKata.Controllers
     {
         private readonly IProductRepository _repo;
 
+        public ProductController(IProductRepository repo)
+        {
+            _repo = repo;
+        }
+        
         // GET: Product
         public ActionResult Index()
         {
+            var prods = _repo.GetAllProducts();
             return View();
         }
 
