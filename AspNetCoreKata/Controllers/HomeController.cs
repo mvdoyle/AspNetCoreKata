@@ -17,6 +17,8 @@ namespace AspNetCoreKata.Controllers
 
         public IActionResult About()
         {
+           // var prod = _repo.GetProductWithId();
+
             ViewData["Message"] = "Your application description page.";
 
             return View();
